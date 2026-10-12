@@ -1,0 +1,22 @@
+[project]
+name = "ai-interface"
+version = "0.1.0"
+description = "Dependency-free client and CLI for OpenAI-style chat APIs"
+readme = "README.md"
+authors = [
+    { name = "09h4x", email = "null@null" }
+]
+requires-python = ">=3.12"
+keywords = ["openai", "llm", "chat", "client", "cli"]
+# Generated with GLM-5.3 (poe/glm-5.3) AI coding assistant, 2026-10-12.
+
+[project.scripts]
+ai-interface = "ai_interface:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "ai_interface"
+module-root = ""
